@@ -54,8 +54,19 @@ this warning.
 \n********************\n
 Press ctrl + c to exit."""
 
+billboard = """
+     ___                                                                                     
+    / __)                                                                                    
+  _| |__ ___   ____ _   _ ____         ___  ____  ____ _____ ____  _____  ____ ____  _   _ 
+ (_   __) _ \ / ___) | | |    \       /___)/ ___)/ ___|____ |  _ \| ___ |/ ___)  _ \| | | |
+   | | | |_| | |   | |_| | | | |_____|___ ( (___| |   / ___ | |_| | ____| |  _| |_| | |_| |
+   |_|  \___/|_|   |____/|_|_|_(_____|___/ \____)_|   \_____|  __/|_____)_| (_)  __/ \__  |
+                                                            |_|               |_|   (____/ 
+"""
+
 # prompt user for variable input if run without command line args
 if len(sys.argv) < 2:
+    print(billboard)
     print("""\nWelcome to forum_scraper.py!
 
 To view a demo of this program's functionality, use 'zilvia' for the forum name and 'test' for the URL\n""")
