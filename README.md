@@ -1,4 +1,4 @@
-# forum_scraper
+# forum_scraper.py
 This is a simple script used for scraping forum post data. In its current implementation, it has support for zilvia.net and rx7club.com. It outputs the contents of each forum thread into a .doc file with the filename set to the thread title.
 
 # Usage
